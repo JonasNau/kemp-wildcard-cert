@@ -50,7 +50,7 @@ while test $# -gt 0; do
       if test $# -gt 0; then
         username=$1
       else
-        echo "no username specified specified"
+        echo "no username specified"
         exit 1
       fi
       shift
@@ -67,7 +67,7 @@ while test $# -gt 0; do
       if test $# -gt 0; then
         password=$1
       else
-        echo "no password specified specified"
+        echo "no password specified"
         exit 1
       fi
       shift
